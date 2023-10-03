@@ -82,13 +82,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Created a table**
 - **Inserted a row to the table**
 - **Wrote queries**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
