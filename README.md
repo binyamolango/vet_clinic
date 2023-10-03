@@ -123,7 +123,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: `git clone https://github.com/binyamolango/vet_clinic`
 
 <!--
 Example commands:
