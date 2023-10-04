@@ -34,3 +34,10 @@ UPDATE animals SET weight_kg = weight_kg * -1;
 ROLLBACK TO sp1;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 COMMIT;
+
+SELECT COUNT(*) FROM animals;
+SELECT COUNT(escape_attempts) FROM animals WHERE animals.escape_attempts = 0;
+SELECT AVG(weight_kg) FROM animals;
+SELECT neutered, SUM(escape_attempts) as total_escape_attempts FROM animals GROUP BY neutered;
+SELECT MIN(weight_kg), MAX(weight_kg) FROM animals;
+SELECT date_of_birth, AVG(escape_attempts) FROM animals GROUP BY date_of_birth HAVING date_of_birth BETWEEN '1990-01-01' AND '2000-01-01';
